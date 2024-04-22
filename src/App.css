@@ -1,0 +1,21 @@
+.overlay:hover {
+    opacity: 1 !important;
+}
+
+.my-btn:hover{
+    border-color: #353a40;
+    background-color: #eee !important;
+    color: #353a40;
+}
+
+.my-btn{
+    background-color: #47413a !important;
+}
+
+.my-bg{
+    background-color: #ebd7c1;
+}
+
+.my-bg2{
+    background-color: #47413a;
+}

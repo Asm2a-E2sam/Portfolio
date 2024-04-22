@@ -1,34 +1,53 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Progress from './progress'
+import './App.css'
+// import Progress from './progress'
 
 function Skills() {
   return (
-        <Container className="my-5 p-6 bg-dark text-white">
-          <Row>
-              <p className="fs-1 text-center">Skills</p>
-              <p className="pb-5 px-6 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, quidem exercitationem? corporis! Dicta, qui. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, quidem exercitationem? Atque quia ex adipisci vitae et nam, veniam beatae deleniti corrupti! Eaque distinctio quam blanditiis facilis corporis! Dicta, qui.</p>
+        <Container className="my-5 p-6 my-bg text-white" id='skills'>
+          <Row className='text-center'>
+              <p className="fs-1 text-center text-dark fw-bold">Skills</p>
+              <div className='d-flex flex-column'>
+              <hr className='text-dark w-50 m-auto pb-1'/>
+              <hr className='text-dark w-50 m-auto'/>
+              </div>
           </Row>
-          <Row className="px-6 center">
-            <Col md={"6"} className="px-5 focus"> 
-              <p className="fs-5 text-center fw-bold">MY FOCUS</p>
-              <hr/>
-              <p className="fs-5 px-3">UI/UX Design</p>
-              <p className="fs-5 px-3">Responsive Design</p>
-              <p className="fs-5 px-3">Web Design</p>
-              <p className="fs-5 px-3">Mobile App Design</p>
+          <Row className="pt-5 px-6 center text-dark">
+          <Col md={"4"} className="px-5 text-dark"> 
+            <h5>Front End</h5>
+              <ul>
+                <li>React</li>
+                <li>Angular</li>
+                <li>JavaScript</li>
+                <li>Typescript</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+              </ul>
             </Col>
-            <Col md={"6"}>
-              <Progress  name={"HTML"} size={"95"}/>
-              <Progress  name={"CSS"}  size={"85"}/>
-              <Progress  name={"JS"} size={"90"}/>
-              <Progress  name={"PHP"} size={"75"}/>
-              <Progress  name={"HTML"} size={"95"}/>
-              <Progress  name={"JS"} size={"90"}/>
-              <Progress  name={"PHP"} size={"75"}/>
-              <Progress  name={"HTML"} size={"95"}/>
-              <Progress  name={"JS"} size={"90"}/>
+            <Col md={"4"} className="px-5"> 
+            <h5>Back End </h5>
+              <ul>
+                <li>Node JS</li>
+                <li>Restful API</li>
+              </ul>
+            <h5>DataBase</h5>
+              <ul>
+                <li>Mongo DB</li>
+                <li>MySQL</li>
+              </ul>
+            </Col>
+            <Col md={"4"} className="px-5" >
+              <h5>Software Tools</h5>
+              <ul>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Photoshop CC</li>
+                <li>Postman</li>
+                <li>MongoDB Compass</li>
+              </ul> 
+              <br />
             </Col>
           </Row>
         </Container>  
