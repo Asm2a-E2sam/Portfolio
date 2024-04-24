@@ -14,8 +14,8 @@ function Skills() {
               <hr className='text-dark w-50 m-auto'/>
               </div>
           </Row>
-          <Row className="pt-5 px-6 center text-dark">
-          <Col md={"4"} className="px-5 text-dark"> 
+          <Row className="pt-5 text-dark">
+          <Col md={"4"} className=""> 
             <h5>Front End</h5>
               <ul>
                 <li>React</li>
@@ -26,7 +26,7 @@ function Skills() {
                 <li>CSS3</li>
               </ul>
             </Col>
-            <Col md={"4"} className="px-5"> 
+            <Col md={"4"} className=""> 
             <h5>Back End </h5>
               <ul>
                 <li>Node JS</li>
@@ -38,7 +38,7 @@ function Skills() {
                 <li>MySQL</li>
               </ul>
             </Col>
-            <Col md={"4"} className="px-5" >
+            <Col md={"4"} className="" >
               <h5>Software Tools</h5>
               <ul>
                 <li>Git</li>
