@@ -14,7 +14,7 @@ function Portifolio() {
             </Row>
             <Row>
                 <Col className='d-flex justify-content-center'><Project img={"TMDB.png"}  title="MOVIES" details="React JS" url="https://tmdb-movies-jet.vercel.app"/></Col>
-                <Col className='d-flex justify-content-center'><Project img={"E-Commerce.png"}  title="E-Commerce" details="Angular TS" url="#"/></Col>
+                <Col className='d-flex justify-content-center'><Project img={"E-Commerce.png"}  title="E-Commerce" details="Angular TS" url="https://angular-ecommerce-site.vercel.app/"/></Col>
                 <Col className='d-flex justify-content-center'><Project img={"Restaurant.png"}  title="Restaurant" details="WordPress" url="https://dev-e-commerce201.pantheonsite.io"/></Col>
             </Row>
       </Container>
