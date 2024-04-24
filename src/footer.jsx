@@ -13,7 +13,7 @@ function Footer() {
         </Col>
         <Col md={"4"} className="d-flex flex-column justify-content-center align-items-center">
         <img src="./assets/ae-dark.png" alt="logo" width={100}/>  
-        <a href='https://wa.me/201065592662' className="btn btn-dark px-4 my-btn">CONTACT ME</a>
+        <a href='https://wa.me/201065592662' className="btn btn-dark px-4 my-btn mb-4">CONTACT ME</a>
         </Col>
         <Col md={"4"}  className="d-flex flex-column justify-content-end align-items-end">
           <p>
