@@ -49,9 +49,10 @@ function Home() {
               also have a good background in design using Photoshop CC and Adobe
               XD.
             </p>
-            <button className="btn btn-dark my-btn px-4">
+
+            <a className="btn btn-dark my-btn px-4" href="./assets/Asmaa Essam.pdf" download="Asmaa Essam.pdf">
               Download Resume
-            </button>
+            </a>
           </Col>
         </Row>
       </Container>
