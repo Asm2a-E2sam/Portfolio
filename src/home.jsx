@@ -18,7 +18,7 @@ function Home() {
     <Container fluid="md" id="resume">
       <Header />
       <Card className="text-white p-0 rounded-0" id="home">
-        <Card.Img src="./assets/girl.png" alt="Card image" class="rounded-0" />
+        <Card.Img src="./assets/girl.png" alt="Card image" class="rounded-0 min-vh-img" />
         <Card.ImgOverlay>
           <Container>
             <Row>

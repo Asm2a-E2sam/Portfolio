@@ -19,3 +19,7 @@
 .my-bg2{
     background-color: #47413a;
 }
+
+.min-vh-img{
+    min-height: 30vh;
+}
