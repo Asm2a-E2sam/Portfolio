@@ -17,10 +17,10 @@ function Footer() {
         </Col>
         <Col md={"4"}  className="d-flex flex-column justify-content-end align-items-end">
           <p>
-          <a href='https://wa.me/201065592662' className='text-white'><i className="fa-brands fa-whatsapp"></i></a>
-            <a href='mailto:asmaaessam514@gmail.com' className='text-white'><i className="fa-regular fa-envelope px-3"></i></a> 
-            <a href='https://www.linkedin.com/in/asm2a-e2sam' className='text-white'><i className="fa-brands fa-linkedin pe-3"></i></a>
-            <a href='https://github.com/Asm2a-E2sam' className='text-white'><i className="fa-brands fa-github"></i></a>
+          <a href='https://wa.me/201065592662' className='text-white'><i className="icons-white fa-brands fa-whatsapp"></i></a>
+            <a href='mailto:asmaaessam514@gmail.com' className='text-white'><i className="icons-white fa-regular fa-envelope px-3"></i></a> 
+            <a href='https://www.linkedin.com/in/asm2a-e2sam' className='text-white'><i className="icons-white fa-brands fa-linkedin pe-3"></i></a>
+            <a href='https://github.com/Asm2a-E2sam' className='text-white'><i className="icons-white fa-brands fa-github"></i></a>
           </p>
           <p>Copyright @2024 AE</p>
         </Col>
